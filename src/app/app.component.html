@@ -1,0 +1,12 @@
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+    <mat-toolbar>Menu</mat-toolbar>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary"><button mat-button  (click)="opened=!opened"><mat-icon>menu</mat-icon></button> My Portfolio </mat-toolbar>
+
+    <app-header></app-header>
+  </mat-sidenav-content>
+</mat-sidenav-container>

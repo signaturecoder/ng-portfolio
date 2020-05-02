@@ -1,0 +1,36 @@
+header {
+  background-color: #333;
+  height: 90%;
+  color: #fff;
+}
+
+// .landing-page{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+img{
+  border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.landing-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.description {
+  text-align: center;
+  margin-top: 0.5em;
+  .description__heading{
+    font-size: 2.5em;
+  }
+  .description__sub-heading{
+    font-size: 1.5em;
+  }
+}
